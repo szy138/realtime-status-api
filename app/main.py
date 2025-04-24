@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI
 from datetime import datetime
-from app.model import get_current_status
+from model import get_current_status
 
 app = FastAPI()
 
